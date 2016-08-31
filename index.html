@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	<!-- Mobile viewport optimized -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap CSS -->
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link href="includes/css/styles.css" rel="stylesheet">
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>	<!-- Javascript -->
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+</head>
+<body>
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">    <!--creats nav bar at top of webpage-->
+			<div class="container">                        <!--container of the nav list-->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button"><!--collapse nav list in mobile view-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/" id="image"><img src="images/mylogo.png" alt="logo"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Art collections</a>
+						</li>
+						<li class="dropdown">     <!--dropdown list-->
+							<a href="#" class="dropdown-toggle"data-toggle="dropdown">Art by catogery</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Normal paintings</a>
+								</li>
+								<li>
+									<a href="link.html">Oil pintings</a>
+								</li>
+								<li>
+									<a href="#">Sculptures</a>
+								</li>
+								<li>
+									<a href="#">See more</a>
+								</li>
+							</ul><!-- end of ul of dropdown-menu -->
+						</li><!-- end of dropdown dropdown listi -->
+						<li>
+							<a href="#" class="dropdown-toggle"data-toggle="dropdown">Artists</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">A-Z lists</a>
+								</li>
+								<li>
+									<a href="#">By category</a>
+								</li>
+							</ul><!-- end of ul of dropdown-menu -->
+						</li><!--end of the dropdown list-->
+						<li>
+							<a href="#" class="dropdown-toggle"data-toggle="dropdown">More</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">about</a>
+								</li>
+								<li>
+									<a href="#">news</a>
+								</li>
+								<li>
+									<a href="#">Articles</a>
+								</li>
+								<li>
+									<a href="#">contacts</a>
+								</li>
+							</ul><!--end of the dropdown menu-->
+						</li><!--end of thedrop down list-->
+					</ul><!-- end of nav navbar-nav -->
+					<form class="navbar-form pull-right">
+						<input type="text" class="form-control" placeholder="search for art" id="search">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+				</div> <!-- end of nav navbar collapse responsiv collapse -->
+			</div> <!-- end of container of nav list -->
+		</div>    <!-- end of navbar -->
+	</div><!--end of the main container-->
+	<section id="page-title">
+		<div class="container clearfix">
+			<h1>Paintings</h1>
+			<span>We provide Amazing Solutions</span>
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Pages</a></li>
+				<li class="active">Articles</li>
+			</ol>
+		</div><!--end of the container for page title-->
+	</section><!--end of the section page title-->
+	<div class="container" id="main">
+		<div class="carousel slide" id="mycarousel">	<!--carousal-->
+			<ol class="carousel-indicators">	<!-- indicators-->
+				<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+				<li data-slide-to="1" data-target="#mycarousel"></li>
+				<li data-slide-to="2" data-target="#mycarousel"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Welcome to Paint Your Thoughts</h4>
+						<p>A well designed and personally customized artist website is central to an artistic career.
+							It is where visitors go to see your work and follow your career.You can also sell art from your artist website as well as through the Artspan online gallery</p>
+						</div><!--end of carousel-caption-->
+					</div><!-- end item-->
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Oil Painting</h4>
+							<p>Oil painting is the process of painting with pigments with a medium of drying oil as the binder. Commonly used drying oils include linseed oil, poppy seed oil, walnut oil, and safflower oil.
+								The choice of oil imparts a range of properties to the oil paint, such as the amount of yellowing or drying time.</p>
+							</div><!--end of carousel-caption-->
+						</div><!-- end item-->
+						<div class="item" id="slide3">
+							<div class="carousel-caption">
+								<h4>Digital painting</h4>
+								<p>Digital painting is a method of creating an art object (painting) digitally and/or a technique for making digital art in the computer.
+									As a method of creating an art object, it adapts traditional painting medium such as acrylic paint, oils</p>
+								</div><!--end of carousel-caption-->
+							</div><!-- end item-->
+						</div><!-- carousel inner-->
+
+						<a class="left carousel-control" data-slide="prev" href="#mycarousel"><!--controls-->
+							<span class="icon-prev"></span>
+						</a>
+						<a class="right carousel-control" data-slide="next" href="#mycarousel">
+							<span class="icon-next"></span>
+						</a>
+					</div><!--end of the mycarousel-->
+
+					<div class="row" id="bigcallout">
+						<div class="col-12">
+							<div class="well well-sm visible-sm"><!--visible-sm at small divice-->
+								<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>give us call</a>
+							</div><!--end of well small-->
+							<div class=well>
+								<div class="page-header">
+									<h2>Art Articles:<small>Tips for for Drawing, Watercolor, Acrylic & Oil Painting</small></h2>
+								</div><!-- end of page header -->
+								<p class="lead">Just getting started in drawing, watercolor, acrylic or oil painting? Or, looking to advance your skills as an artist and fully unleash your
+									potential? The Editors from ArtistsNetwork.com are here to help you get started on the right path, or guide you to a new level of expertise with
+									your artwork with the following articles.
+								</p>
+								<a href=""class="btn btn-large btn-primary" id="alertMe">click here</a>
+								<div class="alert alert-success alert-block fade in" id="successAlert"><!--alert-->
+									<button type="button" class="close"data-dismiss="alert">&times;</button>
+									<h4>success</h4>
+									<p>saibaba shown me this</p>
+								</div><!--end of the alert-->
+							</div> <!-- end of well -->
+						</div>    <!-- end of col-12 -->
+					</div>    <!-- end of bigcallout -->
+				</div><!--end of the main container-->
+
+				<div class="jumbotron">
+					<div class="container">
+						<h1>Paint your thoughts</h1>
+						<p>Find fine art in any medium - either originals or archival prints, from over 4,000 artists in 51 countries. </p>
+					</div>
+				</div>
+
+				<div class="container" id="main">
+					<div class="row" id="features">  <!-- creating 3 colums-->
+						<div class="col-sm-4 feaure">
+							<div class="pannel">
+								<div class="pannel-heading">
+									<h3 class="pannel-title">
+										<a href="#">Drawing Tutorial,Tips And More for Begginers</a>
+									</h3> <!-- end of title -->
+								</div> <!-- end of pannel heading -->
+								<img src="images/col1_img.jpg" alt="pandora image">
+								<p>Successful artists always seem to list drawing art as the constant “helping hand” activity that they go back to
+									when they are stumped and need to refresh themselves or sharpen their techniques. Through simple
+									drawings, you can make discoveries about your own artistic style and further enhance how you see.
+								</p>
+								<a href="class="btn btn-large btn-link"">Learn more</a>
+							</div> <!-- end of pannel -->
+						</div><!-- ending clo-sm-4 features-->
+
+						<div class="col-sm-4 feaure">
+							<div class="pannel">
+								<div class="pannel-heading">
+									<h3 class="pannel-title">
+										<a href="">The Air Painting : The Art of Outdooring </a>
+									</h3> <!-- end of title -->
+								</div> <!-- end of pannel heading -->
+								<img class="image-responsive" src="images/col2_img.jpg" alt="pandora image">
+								<p>Outdoor painting gives artists the opportunity to paint the landscape in an immediate way—from direc
+									observation—responding to changes in light, air quality, weather, and time of day. Many advocates and
+									artists who have taken up plein air painting are committed to creating stirring landscape paintings that are
+									derived solely from nature.
+								</p>
+								<a href="class="btn btn-large btn-link"">Learn more</a>
+							</div> <!-- end of pannel -->
+						</div><!-- ending clo-sm-4 features-->
+						<div class="col-sm-4 feaure">
+							<div class="pannel">
+								<div class="pannel-heading">
+									<h3 class="pannel-title">
+										<a href="#">Become An Expert In Colour Theory and Colour Mixing
+										</h3> <!-- end of title -->
+									</div> <!-- end of pannel heading -->
+									<img src="images/col3_img.jpg" alt="pandora image"></a>
+									<p>Readers are always asking for more instruction and painting methods surrounding color, which is not
+										surprising considering how crucial color, the color wheel, and mixing colors are to a successful work of art.
+										That’s why we've pulled together three top color resources on the market right now and what they can do for you!
+									</p>
+									<a href="class="btn btn-large btn-link"">Learn more</a>
+								</div> <!-- end of pannel -->
+							</div><!-- ending col-sm-4-->
+						</div>  <!-- end of features -->
+						<hr>
+						<div class="row" id="moreinfo">   <!--more info    creating 2 columns and right column divided in to 3 rows-->
+							<div class="col-sm-6">
+								<h3>Tabbable content</h3>
+								<div class="tabbable">
+									<ul class= "nav nav-tabs">
+										<li class="active"><a href="#tab1" data-toggle="tab">section1</a></li>
+										<li><a href="#tab2" data-toggle="tab">section2</a></li>
+									</ul>
+									<div class="tab-content">
+										<div class="tab-pane active" id="tab1">
+											<div class="col-6">
+												<div class="thumbnail">
+													<img src="images/image (3).jpg" alt="art for children">
+													<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+													<div class="caption">
+														<h3>Paints Children Can like them</h3>
+														<p>sevaral paints are available click below link to buy them</p>
+														<a href=""class="btn btn-link">For offers</a>
+													</div><!-- end caption -->
+												</div><!-- end thumbnail -->
+											</div><!-- end col-6 -->
+
+											<div class="col-6"><!--creating thumbnails-->
+												<div class="thumbnail">
+													<img src="images/image (5).jpg" alt="imagethumbnail">
+													<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>25000</div>
+													<div class="caption">
+														<h3>Available Paints To Buy</h3>
+														<p>Here are som paints to buy</p>
+														<a href="" class="btn btn-link">For offers</a>
+													</div><!-- end caption -->
+												</div><!-- end thumbnail -->
+											</div><!-- end col-6 -->
+										</div><!--end of tab pane-->
+
+										<div class="tab-pane" id="tab2">
+											<img src="images/col1_2.jpg" class="thumbnail pull-left">
+											<h4>Arts for sale<small>more like our favourite</small></h4>
+											<p>Paint Your Thoughts for the Art Collector Buying art on this is like taking a trip through individual artists' galleries.
+												You get to know the artists and their work. You learn their story and form a connection with the artist.
+												With Paint Your Thoughts, you deal directly with the artist, so you know you're getting the very best price.</p>
+												<hr>
+												<a href="#myModal"role="button"class="btn btn-warning" data-toggle="modal">click for paints</a>
+												<div class="modal fade" id="myModal">
+													<div class="modal-dialog">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button class="close" data-dismiss="modal">&times;</button>
+
+																<h4 class="modal-title">Confirmation</h4>
+															</div><!-- end modal-header -->
+															<div class="modal-body">
+																<h4>Nice painings</h4>
+
+																<p>Paint Your Thoughts for the Art Collector Buying art on this is like taking a trip through individual artists' gallerie.</p>
+
+																<h4>some more</h4>
+																<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+
+																<h4>see more</h4>
+																<a href="" data-original-title="Tooltip" rel="tooltip"> See This link</a> <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+																<hr>
+																<p><small class="text-muted">paints are available</small></p>
+																<form class="form-horizontal">
+																	<div class="form-group">
+																		<label class="col-lg-2 control-label" for="inputName">Name</label>
+																		<div class="col-lg-10">
+																			<input class="form-control" id="inputName" placeholder="Name" type="text">
+																		</div>
+																	</div>
+
+																	<div class="form-group">
+																		<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+																		<div class="col-lg-10">
+																			<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+																		</div>
+																	</div>
+
+																	<div class="form-group">
+																		<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+																		<div class="col-lg-10">
+																			<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+																			<button class="btn btn-success pull-right" type="submit">Send!</button>
+																		</div>
+																	</div>
+																</form>
+															</div><!-- end modal-body -->
+															<div class="modal-footer">
+																<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+															</div><!-- end modal-footer -->
+														</div><!-- end modal-content -->
+													</div><!-- end modal-dialog -->
+												</div><!-- end myModal -->
+
+											</div><!--end of tab pane-->
+										</div><!--end of tab content-->
+									</div><!--end of tabbable-->
+								</div><!--end of col sm 6-->
+
+								<div class="col-sm-6 info">
+									<div class="pannel">
+										<div class="pannel-heading">
+											<h3 class="pannel-title">
+												<a href="#">Tips To Draw People</a>
+											</h3> <!-- end of title -->
+										</div> <!-- end of pannel heading -->
+										<div class="list-group">
+											<a href="#" class="list-group-item">
+												<h4 class="list-group-item-heading">Drawing Hands</h4>
+												<p class="list-group-item-text">
+													Keep in mind the bone and muscle structure beneath the surface. In some places the surface is influenced by the angular bones,
+													in others by the soft muscles. Don’t round off all the forms or the subject will look rubbery.
+												</p>
+											</a>
+											<a href="#" class="list-group-item">
+												<h4 class="list-group-item-heading">Drawing People and More</h4>
+												<p class="list-group-item-text"> A classic way to draw something with correct proportion is to create a grid and place it over your reference photo,
+													then draw a grid on your paper. Erasing these lines can be a pain, so a lightbox (or window on a sunny day) can be used instead.
+													Place the grid on the lightbox, tape it down,then place your paper over the grid. You can see the grid through the paper and there’s no erasing later.
+													from Carrie Stuart Parks and Rick Parks
+												</p>
+											</a>
+											<a href="#" class="list-group-item">
+												<h4 class="list-group-item-heading">Offers on Arts</h4>
+												<p class="list-group-item-text">Like What You See? Save 10% Off Select Drawing Products! Use Promo Code:
+													<span>SAVELP</span> Final discounts will be displayed in the cart for qualifying items. Discount not valid on
+													pre-orders, value packs, subscriptions, and 3rd party products. One use per customer. Other exclusions
+													apply.
+												</p>
+											</a>  <!--end of list group item-->
+											<a href="class="btn btn-large btn-link"">For more offers</a>
+										</div><!-- end of list group-->
+									</div> <!-- end of pannel -->
+								</div><!-- ending col-sm-6 info-->
+							</div>  <!-- end of more info -->
+						</div>      <!-- end of main container-->
+						<!--modal-->
+
+						<hr>
+
+						<footer>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-2">
+										<h6>Copyright &copy; 2016 {sasikala}</h6>
+									</div><!-- end col-sm-2 -->
+									<div class="col-sm-4">
+									 <h6>About Us</h6>
+										<p>Paint your Thoughts fosters a community of contemporary emerging artists. Each artist website is independent but also part of
+											Paint Your Thoughts.com.A well designed and personally customized artist website is central to an artistic career. It is where visitors go to see your work and follow your career. You can also sell art from your artist website as well as through the Artspan online gallery. Sell original artwork and, at your option, prints produced with quality archival materials.
+										</p>
+									</div><!-- end col-sm-4 -->
+									<div class="col-sm-2">
+										<h6>Navigation</h6>
+										<ul class="list">
+											<li><a href="#">Home</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="#">Links</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div><!-- end col-sm-2 -->
+									<div class="col-sm-2">
+										<h6>Follow Us</h6>
+										<ul class="list">
+											<li><a href="#">Twitter</a></li>
+											<li><a href="#">Facebook</a></li>
+											<li><a href="#">Google Plus</a></li>
+										</ul>
+									</div><!-- end col-sm-2 -->
+									<div class="col-sm-2">
+										<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by sasikala</h6>
+									</div><!-- end col-sm-2 -->
+								</div><!-- end row -->
+							</div><!-- end container -->
+						</footer>
+						<script src="http://code.jquery.com/jquery.js"></script>
+						<!-- If no online access, fallback to our hardcoded version of jQuery -->
+						<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+						<!-- Bootstrap JS -->
+						<script src="bootstrap/js/bootstrap.min.js"></script>
+						<!-- Custom JS -->
+						<script src="includes/js/script.js"></script>
+
+					</body>
+					</html>
